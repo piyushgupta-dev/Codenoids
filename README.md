@@ -28,8 +28,12 @@ Repository/
 │   │   ├── Longest_Substring_Without_Repeating_Characters.cpp
 │   │   └── Roman_to_Integer.cpp
 │   │
-│   └── Day-3/
-│       └── Longest_Palindromic_Substring.cpp
+│   ├── Day-3/
+│   │   └── Longest_Palindromic_Substring.cpp
+│   │
+│   ├── Day-4/
+│   │   ├── Longest_Common_Prefix.cpp
+│   │   └── Container_With_Most_Water.cpp
 │
 └── README.md
 ```
@@ -41,8 +45,9 @@ Repository/
 | Day 1 | Add Two Numbers, Two Sum                                         |
 | Day 2 | Longest Substring Without Repeating Characters, Roman to Integer |
 | Day 3 | Longest Palindromic Substring                                    |
+| Day 4 | Longest Common Prefix, Container With Most Water                 |
 
-**Total Problems Solved:** 5
+**Total Problems Solved:** 7
 
 ---
 
@@ -101,7 +106,7 @@ Repository/
 
 ### 3. Longest Substring Without Repeating Characters
 
-**File:** `Longest Substring Without Repeating Characters.cpp`
+**File:** `Longest_Substring_Without_Repeating_Characters.cpp`
 
 **Approach Used**
 
@@ -171,6 +176,62 @@ Repository/
 
 ---
 
+## Day 4
+
+### 6. Longest Common Prefix
+
+**File:** `Longest_Common_Prefix.cpp`
+
+**Approach Used**
+
+* Assumed the first string as the initial prefix.
+* Compared the prefix with each string in the array.
+* Reduced the prefix length whenever a mismatch occurred.
+* Continued until a common prefix was found for all strings.
+
+**Concepts**
+
+* Strings
+* Prefix Matching
+* Iterative Comparison
+
+**Complexity**
+
+* Time: O(n × m)
+* Space: O(1)
+
+Where:
+
+* n = Number of strings
+* m = Length of the shortest string
+
+---
+
+### 7. Container With Most Water
+
+**File:** `Container_With_Most_Water.cpp`
+
+**Approach Used**
+
+* Used the Two Pointer technique.
+* Initialized pointers at both ends of the array.
+* Calculated the container area at each step.
+* Moved the pointer with the smaller height to maximize the possible area.
+* Tracked the maximum area found.
+
+**Concepts**
+
+* Arrays
+* Two Pointers
+* Optimization
+
+**Complexity**
+
+* Time: O(n)
+* Space: O(1)
+
+---
+
 # 🎯 Objectives
 
 * Strengthen problem-solving skills.
@@ -183,6 +244,6 @@ Repository/
 
 ## 📅 Current Status
 
-✅ DSA Problems Solved: 5
+✅ DSA Problems Solved: 7
 
 🚀 Agentic AI Learning: In Progress
