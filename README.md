@@ -218,12 +218,6 @@ research machine learning
 
 **Piyush Gupta**
 
-B.Tech Computer Science Engineering
-
-GitHub: https://github.com/piyushgupta-dev
-
-LinkedIn: Add Your LinkedIn Profile Here
-
 ---
 
 ## ⭐ Support
