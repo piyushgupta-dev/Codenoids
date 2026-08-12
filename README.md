@@ -30,7 +30,6 @@ An intelligent AI Assistant built using **React**, **FastAPI**, **Ollama**, and 
 ### 💻 Code Assistant
 
 * React.js Development
-* FastAPI Development
 * Python Programming
 * JavaScript Programming
 
@@ -133,7 +132,6 @@ project/
 └── README.md
 ```
 
----
 
 ## 🚀 Installation
 
